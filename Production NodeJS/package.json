@@ -1,0 +1,27 @@
+{
+  "name": "rovercam",
+  "version": "1.0.0",
+  "description": "Wrapper for Rover data handling",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@abandonware/noble": "*",
+    "@tensorflow-models/coco-ssd": "^2.2.1",
+    "@tensorflow/tfjs-backend-cpu": "^3.4.0",
+    "@tensorflow/tfjs-backend-webgl": "^3.4.0",
+    "bluetooth-device": "^0.1.0",
+    "color-difference": "^0.3.4",
+    "get-image-colors": "^4.0.0",
+    "get-pixels": "^3.3.2",
+    "ndarray": "^1.0.19",
+    "noble": "^1.9.1",
+    "node-red-contrib-tfjs-coco-ssd": "^0.5.6",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "rgb-hex": "^3.0.0"
+  }
+}
